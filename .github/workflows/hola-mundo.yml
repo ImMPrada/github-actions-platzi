@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@ec02537da5712d66d4d50a0f33b7eb52773b5ed1
+      - uses: ruby/setup-ruby@2654679fe7f7c29875c669398a8ec0791b8a64a1
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
       - run: ruby hello_world.rb
